@@ -23,6 +23,7 @@
 - [APPDO 数字生活指南](https://mini.appdo.xyz/)
 - [85.60×53.98卡粉订阅/提醒](https://tg.docofcard.com/)
 - [新闻在花频道](https://tg.istore.app/)
+- [ALL About RSS](https://blog.rss.tips/)
 - [Charles Chin's Whisper](https://memo.eallion.com/)
 - [PlayStation 新闻转发](https://playstationnews.pages.dev)
 - [Yu's Life](https://daily.pseudoyu.com/)
@@ -33,10 +34,17 @@
 - [LiFePO4:沙雕吐槽](https://lifepo4.top)
 - [Hotspot Hourly](https://hourly.top/)
 - [大河马中文财经新闻分享](https://a.xiaomi318.com/)
-- [\_My. 技巧 🎩 集锦](https://channel.mykeyvans.com)
+- [\_My. Tricks 🎩 Collection](https://channel.mykeyvans.com)
 - [小报童专栏精选](https://xiaobaotong.genaiprism.site/)
 - [Fake news](https://fake-news.csgo.ovh/)
 - [miyi23's Geekhub资源分享](https://gh.miyi23.top/)
+- [Magazine｜期刊杂志｜财新周刊](https://themagazine.top)
+- [Remote Jobs & Cooperation](https://share-remote-jobs.vercel.app/)
+- [甬哥侃侃侃--频道发布](https://ygkkktg.pages.dev)
+- [Fugoou.log](https://fugoou.xyz)
+- [Bboysoul的博客](https://tg.bboy.app/)
+- [MakerHunter](https://share.makerhunter.com/)
+- [ChatGPT/AI新闻聚合](https://g4f.icu/)
 
 ### 平台
 
@@ -54,6 +62,13 @@
 - 模板: [Sepia](https://github.com/Planetable/SiteTemplateSepia)
 
 ## 🏗️ 部署
+
+### Docker
+
+1. `docker pull ghcr.io/ccbikai/broadcastchannel:main`
+2. `docker run -d --name broadcastchannel -p 4321:4321 -e CHANNEL=miantiao_me ghcr.io/ccbikai/broadcastchannel:main`
+
+### Serverless
 
 1. [Fork](https://github.com/ccbikai/BroadcastChannel/fork) 此项目到你 GitHub
 2. 在 Cloudflare/Netlify/Vercel 创建项目
